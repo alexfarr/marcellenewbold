@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+rsync -rlptDvz . vps:/var/www/marcellenewbold.co.uk/drupal/

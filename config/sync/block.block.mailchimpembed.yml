@@ -1,0 +1,25 @@
+uuid: 9660498d-0d78-4b9a-8705-5be40c2a5f5c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:html_block:6e150db9-566f-49e9-af08-eea6e6b4209e'
+  module:
+    - block_content
+  theme:
+    - showcase_lite
+id: mailchimpembed
+theme: showcase_lite
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:6e150db9-566f-49e9-af08-eea6e6b4209e'
+settings:
+  id: 'block_content:6e150db9-566f-49e9-af08-eea6e6b4209e'
+  label: 'mailchimp embed'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

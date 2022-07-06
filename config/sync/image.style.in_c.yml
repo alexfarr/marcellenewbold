@@ -1,0 +1,15 @@
+uuid: ab7c3c7c-fb8c-4fb9-b0de-425a64a9087a
+langcode: en
+status: true
+dependencies: {  }
+name: in_c
+label: 'In Content small'
+effects:
+  fbff0bd5-3c30-4286-bbe5-2c5f1a39a8c7:
+    uuid: fbff0bd5-3c30-4286-bbe5-2c5f1a39a8c7
+    id: image_scale
+    weight: 1
+    data:
+      width: 300
+      height: 200
+      upscale: false

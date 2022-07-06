@@ -1,0 +1,8 @@
+uuid: 970164ae-256e-4f5a-939b-8e595b405b6e
+langcode: en
+status: true
+dependencies: {  }
+id: html_block
+label: 'HTML Block'
+revision: 0
+description: 'Allows the user to add basic html to embed things like mailchimp forms etc.'

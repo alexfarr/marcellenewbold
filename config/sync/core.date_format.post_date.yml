@@ -1,0 +1,8 @@
+uuid: 4d9a4acf-d8e7-421e-a229-6b89c1cc6929
+langcode: en
+status: true
+dependencies: {  }
+id: post_date
+label: 'Post date'
+locked: false
+pattern: 'F Y'

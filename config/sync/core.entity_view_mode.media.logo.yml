@@ -1,0 +1,10 @@
+uuid: 05deacd5-6ee7-49a8-815f-408e6053badc
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.logo
+label: logo
+targetEntityType: media
+cache: true

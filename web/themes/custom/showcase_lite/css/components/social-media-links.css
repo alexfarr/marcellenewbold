@@ -1,0 +1,12 @@
+ul.inline.social-media-links--platforms {
+    text-align: right;
+    display: block;
+    padding: 0 20px;
+    font-size: 10px;
+}
+
+@media (max-width: 767px) {
+    ul.inline.social-media-links--platforms {
+        text-align: center;
+    }
+}

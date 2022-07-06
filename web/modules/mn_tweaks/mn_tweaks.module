@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function mn_tweaks_preprocess_node(&$variables) {
+  //swap out the date for ht epublished date field.
+  $node = $variables['node'];
+  $date = NULL;
+  if($node->hasField('field_published_date')){
+    $date = \Drupal::service('date.formatter')->format($node->get('field_published_date')->date->getTimestamp(), 'post_date');
+  }
+  $variables['date'] = $date ?: $variables['date'] ;
+}

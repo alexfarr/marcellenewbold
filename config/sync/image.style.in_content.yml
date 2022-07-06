@@ -1,0 +1,15 @@
+uuid: 4ba009e0-de49-484b-8c8d-8fc4a5c70f9c
+langcode: en
+status: true
+dependencies: {  }
+name: in_content
+label: 'In Content'
+effects:
+  01744eca-74bf-4086-93f8-79e07949d899:
+    uuid: 01744eca-74bf-4086-93f8-79e07949d899
+    id: image_scale
+    weight: 1
+    data:
+      width: 600
+      height: 400
+      upscale: true

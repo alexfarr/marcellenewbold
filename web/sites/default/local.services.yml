@@ -1,0 +1,12 @@
+# Local development services.
+
+parameters:
+  # Not required because Varnish Purge module adds Cache-Tags to header.
+  http.response.debug_cacheability_headers: false
+  twig.config:
+    debug: true
+    auto_reload: true
+    cache: false
+services:
+  cache.backend.null:
+    class: Drupal\Core\Cache\NullBackendFactory

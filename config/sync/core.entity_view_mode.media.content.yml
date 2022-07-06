@@ -1,0 +1,10 @@
+uuid: db86f352-f644-4d28-8de8-656638bc89fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.content
+label: Content
+targetEntityType: media
+cache: true

@@ -1,0 +1,14 @@
+uuid: 67a70d8b-e122-4f0f-a990-47e06499b591
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.post
+id: node_type_post
+entity_type_id: node_type
+entity_id: post
+action: page_redirect
+allow_override: 1
+redirect: '/news#[node:nid]'
+redirect_code: 301
+redirect_fallback_action: access_denied

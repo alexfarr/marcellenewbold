@@ -1,0 +1,26 @@
+uuid: 4bcd1254-51c8-4147-8b57-223263721e5e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: news
+label: News
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      post: post
+    sort:
+      field: field_published_date
+      direction: DESC
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 0
+  act_as_queue: false
+  reverse: false

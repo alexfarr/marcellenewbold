@@ -1,0 +1,137 @@
+uuid: 553b22ed-8397-4a5c-989a-4582c942ea39
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - showcase_lite
+id: socialmedialinks
+theme: showcase_lite
+region: header
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  label_display: '0'
+  provider: social_media_links
+  platforms:
+    linktree:
+      value: marcellenewbold
+      description: ''
+      weight: '-36'
+    twitter:
+      value: sketch_31
+      description: ''
+      weight: '-35'
+    instagram:
+      value: marcellenewbold
+      description: ''
+      weight: '-34'
+    soundcloud:
+      value: user-871748758
+      description: ''
+      weight: '-33'
+    facebook:
+      value: ''
+      description: ''
+      weight: '-32'
+    whatsapp:
+      value: ''
+      description: ''
+      weight: '-31'
+    xing:
+      value: ''
+      description: ''
+      weight: '-30'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-29'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '-28'
+    gitlab:
+      value: ''
+      description: ''
+      weight: '-27'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-26'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-25'
+    rss:
+      value: ''
+      description: ''
+      weight: '-24'
+    website:
+      value: ''
+      description: ''
+      weight: '-23'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-22'
+    contact:
+      value: ''
+      description: ''
+      weight: '-21'
+    email:
+      value: marcellenewbold@gmail.com
+      description: marcellenewbold@gmail.com
+      weight: '-20'
+    linkedin:
+      value: in/marcellenewbold/
+      description: ''
+      weight: '-19'
+    youtube:
+      value: ''
+      description: ''
+      weight: '-18'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '-17'
+    behance:
+      value: ''
+      description: ''
+      weight: '-16'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-15'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-14'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '-13'
+    github:
+      value: ''
+      description: ''
+      weight: '-12'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '-11'
+  appearance:
+    orientation: h
+    show_name: 0
+    suggestion: ''
+  link_attributes:
+    target: _blank
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

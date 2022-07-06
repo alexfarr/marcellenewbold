@@ -1,0 +1,24 @@
+{% extends 'node--post.html.twig'%}
+
+
+{% block title %}
+    <a id="{{ node.id }}"></a>
+    <h2{{ title_attributes.addClass('node__title') }}>
+        {{ label }}
+    </h2>
+{% endblock %}
+
+{% block submitted %}
+    <div class="post--teaser--info">
+        {{ date }}
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="flex-grid">
+    {% if content.field_featured_image['#items'] is not empty %}
+    <div class="grid-item">{{ content.field_featured_image }}</div>
+    {% endif %}
+    <div class="grid-item">{{ content|without('field_featured_image', 'field_published_date') }}</div>
+</div>
+{% endblock %}

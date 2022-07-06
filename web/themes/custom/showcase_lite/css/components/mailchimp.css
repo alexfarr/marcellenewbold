@@ -1,0 +1,30 @@
+.mailchimp_form h3 {
+    font-size: 18px;
+}
+
+.mailchimp_form .indicates-required {
+    font-size: 12px;
+}
+
+.mailchimp_form input[type="submit"] {
+    font-size: 10px
+}
+
+.mailchimp_form .branding img {
+    max-width: 150px;
+}
+
+.mailchimp_form input[type="email"],
+.mailchimp_form input[type="text"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px #fff;
+}
+
+.mailchimp_form .mc-field-group {
+    margin: 20px 0;
+}
+
+.mailchimp_form label {
+    font-weight: normal;
+}
