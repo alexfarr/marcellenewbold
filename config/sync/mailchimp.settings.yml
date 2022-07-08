@@ -1,6 +1,6 @@
 _core:
   default_config_hash: ViXe1Mhsdfc0AY1y-5R7vwxUoVItsnRfbQbQYzQGEEs
-api_key: 59747e77b111c1c9bbd03e5488e12e01-us15
+api_key: ''
 api_timeout: 10
 cron: false
 batch_limit: 100

@@ -42,3 +42,4 @@ sites/simpletest
 # simpletest
 
 /web/modules/contrib/
+/web/sites/*/secrets.php
