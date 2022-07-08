@@ -53,7 +53,7 @@ services:
         # copied to the external server in order to use rsync over SSH.
         #- rsync -av --delete user@example.com:/path/to/files/ "${DOCROOT}/sites/default/files/"
 
-        - drush site:install minimal --existing-config --yes
+        - drush site:install standard --existing-config --yes
         # Alternatively, another common practice is to use the
         # stage_file_proxy Drupal module. This module lets Drupal serve
         # files from another publicly-accessible Drupal site instead of
